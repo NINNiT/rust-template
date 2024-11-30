@@ -55,7 +55,7 @@ jobs:
     environment: default
     env:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN}}
-      FULL_REGISTRY_URI: ghcr.io/${{ github.repository }}
+      FULL_REGISTRY_URI: ghcr.io/ninnit/rust-template
     needs: build-release
     steps:
       - uses: actions/checkout@v4

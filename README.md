@@ -27,6 +27,8 @@
 - add the `renovate` GitHub App to the repository if you want automated dependency updates
 - change `renovate.json` if you want to customize the dependency update logic. By default, it uses `develop` as its base branch.
 
+You should also adhere to the `conventional commits` standard for commit messages, as this is used by `semantic-release` to determine the next version.
+
 ## Features
 
 ### rust

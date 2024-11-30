@@ -16,6 +16,16 @@
 
 `rust-template` is a custom, opinionated template for creating new Rust projects.
 
+❗ The following **must be changed**, if you decide to use this template ❗
+
+- change `[package]` fields in `Cargo.toml` to match your project
+- change paths in the `Dockerfile` to match your project and release binary
+- change the license holder within `LICENSE` to match your project
+- change the banner in `src/main.rs` to match your project
+- generate a PAT and add it as the `GH_TOKEN` secret to the repository
+- possibly change the GitHub Actions workflow to match your project
+- add the `renovate` GitHub App to the repository if you want automated dependency updates
+
 ## Features
 
 ### rust
@@ -30,6 +40,7 @@
 
 - `GitHub Actions` for CI/CD
 - `semantic-release` for versioning
+- `renovate` for dependency updates
 
 ## Dependencies
 

@@ -35,7 +35,7 @@ You should also adhere to the `conventional commits` standard for commit message
 
 - `figment` for configuration
 - `tokio` and `async-trait` for async handling
-- `tracing` for logging/tracign
+- `tracing` for logging/tracing
 - `eyre` for error handling
 - `serde` for serialization/deserialization
 

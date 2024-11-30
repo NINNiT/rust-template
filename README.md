@@ -25,6 +25,7 @@
 - generate a PAT and add it as the `GH_TOKEN` secret to the repository
 - possibly change the GitHub Actions workflow to match your project
 - add the `renovate` GitHub App to the repository if you want automated dependency updates
+- change `renovate.json` if you want to customize the dependency update logic. By default, it uses `develop` as its base branch.
 
 ## Features
 

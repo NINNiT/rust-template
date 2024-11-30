@@ -24,7 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: default
     env:
-      APP_NAME: ${{github.event.repository.name}}
+      APP_NAME: ${{ github.event.repository.name }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4

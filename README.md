@@ -1,4 +1,4 @@
-<h1 align="center">xenbak</h1>
+<h1 align="center">rust-template</h1>
 
 <p align="center">
   <a href="#about">About</a> •

@@ -1,4 +1,4 @@
-FROM debian:bookworm as runtime
+FROM debian:bookworm-20260316 as runtime
 LABEL org.opencontainers.image.source=https://github.com/NINNiT/rust-template
 LABEL org.opencontainers.image.description="A template for rust projects"
 

@@ -11,7 +11,7 @@ authors = ["NINNiT"]
 async-trait = "0.1.80"
 clap = { version = "4.5.0", features = ["derive"] }
 color-eyre = "0.6.3"
-colored = "2.1.0"
+colored = "3.0.0"
 eyre = "0.6.12"
 figment = { version = "0.10.18", features = ["toml", "env"] }
 serde = { version = "1.0.198", features = ["derive"] }

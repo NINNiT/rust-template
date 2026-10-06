@@ -1,4 +1,4 @@
-FROM debian:12 as runtime
+FROM debian:13 as runtime
 LABEL org.opencontainers.image.source=https://github.com/NINNiT/rust-template
 LABEL org.opencontainers.image.description="A template for rust projects"
 
